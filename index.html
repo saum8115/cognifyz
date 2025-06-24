@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 4</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet">
+<body>
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Cognifyz</a>
+    </div>
+  </nav>
+
+ 
+  <section class="container py-5 text-center">
+    <h1 class="display-4">Welcome to Cognifyz Expert Website</h1>
+    <p class="lead">Built with Bootstrap and Sass</p>
+  </section>
+
+  
+  <section class="container my-5">
+    <h2>Latest Posts</h2>
+    <div id="post-container" class="row g-3"></div>
+  </section>
+
+ 
+  <section class="container my-5">
+    <h2>Contact Us</h2>
+    <form id="contactForm" class="row g-3">
+      <div class="col-md-6">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="col-md-6">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="col-12">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-success">Submit</button>
+        <p class="text-danger mt-2" id="error-msg"></p>
+        <p class="text-success mt-2" id="success-msg"></p>
+      </div>
+    </form>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 Cognifyz Technologies
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+   
